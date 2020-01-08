@@ -13,7 +13,7 @@ export default () => {
           font-size: ${theme.font.size.m};
         `}
       >
-        That's All Folks!
+        That’s all, folks!
       </h2>
       <div
         css={css`
