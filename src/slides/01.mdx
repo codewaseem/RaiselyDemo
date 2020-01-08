@@ -1,0 +1,13 @@
+---
+slug: "1"
+---
+
+import Hero from "../components/Hero"
+import { ThemeContext } from "../layouts"
+
+
+ <ThemeContext.Consumer>
+          {theme => (
+            <Hero   theme={theme} />
+          )}
+</ThemeContext.Consumer>
